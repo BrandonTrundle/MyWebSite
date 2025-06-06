@@ -24,6 +24,6 @@ dist-ssr
 *.sw?
 
 
-server/cv.pdf
+
 server/.env
 client/.env
