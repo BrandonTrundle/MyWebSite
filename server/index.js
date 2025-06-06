@@ -26,6 +26,8 @@ app.post("/api/download", (req, res) => {
 
   const filePath = path.join(__dirname, "cv.pdf");
 
+  console.log("Attempting to download file at:", filePath);
+
   res.download(filePath, "cv.pdf", (err) => {
     if (err) {
       console.error("Download error:", err);
