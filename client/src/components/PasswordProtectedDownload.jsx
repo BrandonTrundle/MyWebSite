@@ -46,6 +46,7 @@ export default function PasswordProtectedDownload() {
       <label className="block text-left font-semibold">
         Enter password to download CV:
       </label>
+
       <input
         type="password"
         value={password}
@@ -60,6 +61,10 @@ export default function PasswordProtectedDownload() {
       >
         {isLoading ? "Verifying..." : "Submit"}
       </button>
+      <p>
+        We're using a free tier version with Render for deployment, so please
+        wait if the download doesn't start immediately.
+      </p>
     </form>
   );
 }
