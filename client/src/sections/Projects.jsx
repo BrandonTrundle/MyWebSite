@@ -2,11 +2,11 @@ import ProjectCard from "../components/ProjectCard";
 
 const professionalProjects = [
   {
-    title: "ArcanaTable",
+    title: "BRC Solar Include Checker",
     description:
-      "A virtual tabletop platform for TTRPGs with campaign management, real-time map tools, and character management.",
-    tech: ["React", "Node.js", "MongoDB", "Socket.IO"],
-    github: "https://github.com/BrandonTrundle/arcanatable",
+      "An internal C code analyzer that detects unused includes for embedded systems, saving build time and reducing clutter.",
+    tech: ["Python", "Regex", "Email Automation", "C", "CI/CD Pipelines"],
+    github: "",
     demo: "",
   },
   {

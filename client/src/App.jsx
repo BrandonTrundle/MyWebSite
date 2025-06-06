@@ -5,6 +5,7 @@ import Bio from "./sections/Bio";
 import Projects from "./sections/Projects";
 import PrivateProjects from "./sections/PrivateProjects";
 import Story from "./pages/Story";
+import Interests from "./pages/Interests";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
           }
         />
         <Route path="/story" element={<Story />} />
+        <Route path="/interests" element={<Interests />} />
       </Routes>
     </Router>
   );

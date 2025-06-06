@@ -14,6 +14,9 @@ export default function Navbar() {
           <li className="hover:text-green-400 transition">
             <Link to="/story">My Story</Link>
           </li>
+          <li className="hover:text-green-400 transition">
+            <Link to="/interests">My Interests</Link>
+          </li>
         </ul>
       </div>
     </nav>
