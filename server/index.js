@@ -25,7 +25,15 @@ app.post("/api/download", (req, res) => {
   }
 
   const filePath = path.join(__dirname, "cv.pdf");
-  res.download(filePath, "cv.pdf");
+
+  res.download(filePath, "cv.pdf", (err) => {
+    if (err) {
+      console.error("Download error:", err);
+      if (!res.headersSent) {
+        res.status(500).json({ error: "Failed to download file." });
+      }
+    }
+  });
 });
 
 app.listen(PORT, () => {
