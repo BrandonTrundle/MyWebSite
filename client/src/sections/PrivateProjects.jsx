@@ -5,7 +5,7 @@ const privateProjects = [
     title: "Flashcard App",
     description:
       "Custom flashcard app to learn tech terms and German vocabulary.",
-    tech: ["React", "LocalStorage"],
+    tech: ["Python", "PyGame"],
     github: "https://github.com/BrandonTrundle/FlashCards",
     demo: "",
   },
@@ -37,8 +37,8 @@ const privateProjects = [
     title: "This website!",
     description:
       "I decided that if I wanted to be a frontend web developer, that maybe I should make a business card.",
-    tech: ["React", "Node.js", "Tailwind CSS", "Vite"],
-    github: "https://github.com/BrandonTrundle/arcanatable-v2",
+    tech: ["React", "Node.js", "Tailwind CSS"],
+    github: "https://github.com/BrandonTrundle/MyWebSite",
     demo: "",
   },
 ];

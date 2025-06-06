@@ -1,3 +1,5 @@
+import PasswordProtectedDownload from "../components/PasswordProtectedDownload";
+
 export default function Bio() {
   return (
     <section className="bg-white text-gray-800 py-16 px-6">
@@ -14,13 +16,7 @@ export default function Bio() {
           leveling up my skillset. Currently building a virtual tabletop
           platform, ArcanaTable.
         </p>
-        <a
-          href="/cv.pdf"
-          download
-          className="inline-block px-6 py-3 bg-green-600 text-white font-semibold rounded hover:bg-green-700 transition"
-        >
-          Download My CV
-        </a>
+        <PasswordProtectedDownload />
       </div>
     </section>
   );

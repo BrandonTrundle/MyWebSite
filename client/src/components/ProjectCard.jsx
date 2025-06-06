@@ -1,3 +1,5 @@
+import { FaGithub } from "react-icons/fa";
+
 export default function ProjectCard({
   title,
   description,
@@ -22,9 +24,10 @@ export default function ProjectCard({
             href={github}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:underline"
+            className="text-blue-600 hover:text-blue-800 transition"
+            aria-label="GitHub Repository"
           >
-            https://github.com/BrandonTrundle/arcanatable
+            <FaGithub className="w-6 h-6" />
           </a>
         )}
         {demo && (

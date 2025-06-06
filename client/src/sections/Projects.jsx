@@ -10,10 +10,10 @@ const professionalProjects = [
     demo: "",
   },
   {
-    title: "BRC Solar Include Checker",
+    title: "BRC Solar Web App for Success and Failures",
     description:
-      "An internal C code analyzer that detects unused includes for embedded systems, saving build time and reducing clutter.",
-    tech: ["Python", "Regex", "Email Automation", "C", "CI/CD Pipelines"],
+      "An internal web application for easier reading of returned JSON data from BRC Power Optimizers, and Gateways.",
+    tech: ["React", "Django", "HTML", "CSS"],
     github: "",
     demo: "",
   },

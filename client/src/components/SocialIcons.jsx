@@ -11,7 +11,7 @@ export default function SocialIcons() {
         <FaGithub className="w-6 h-6 text-white hover:text-gray-300" />
       </a>
       <a
-        href="https://linkedin.com/in/your-linkedin"
+        href="https://www.linkedin.com/in/brandon-trundle-43945134a/"
         target="_blank"
         rel="noopener noreferrer"
       >
