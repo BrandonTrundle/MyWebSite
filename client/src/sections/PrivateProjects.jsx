@@ -28,7 +28,7 @@ const privateProjects = [
   {
     title: "ArcanaTable v2",
     description:
-      "This is the second iteration of my original idea for ArcanaTable. This version is at thne beginning of development",
+      "This is the second iteration of my original idea for ArcanaTable. This version is at the beginning of development",
     tech: ["React", "Node.js", "MongoDB", "Socket.IO"],
     github: "https://github.com/BrandonTrundle/arcanatable-v2",
     demo: "",
