@@ -26,4 +26,4 @@ dist-ssr
 
 server/cv.pdf
 server/.env
-
+client/.env
