@@ -12,6 +12,9 @@ export default function Navbar() {
             <Link to="/">Home</Link>
           </li>
           <li className="hover:text-green-400 transition">
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li className="hover:text-green-400 transition">
             <Link to="/story">My Story</Link>
           </li>
           <li className="hover:text-green-400 transition">
